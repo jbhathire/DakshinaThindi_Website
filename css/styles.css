@@ -1,0 +1,174 @@
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  padding: 3% 0 5% 0;
+}
+
+h3 {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: rgb(202, 230, 136);
+  padding-bottom: 20%;
+}
+
+#footer {
+  background-color: rgb(202, 230, 136);
+  text-align: center;
+  font-style: bold;
+}
+
+.page_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding-bottom: 5rem;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar-collapse {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+.download-button {
+  margin: 3% 5% 5% 0;
+}
+
+.img-fluid {
+  padding: 3% 15%;
+}
+
+.platter {
+  transform: rotate(25deg);
+  margin: 5% 15% 0% 10%;
+  width: 30%;
+  position: absolute;
+  right: 10%;
+}
+
+.varities {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.typesection {
+  text-align: center;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.colheight {
+  margin: 2% 0 2% 0;
+}
+
+.colheight_large {
+  margin: 5%;
+}
+
+.footersection {
+  font-weight: bold;
+}
+
+.copyright {
+  margin: 2% 0 0 0;
+  padding: 1% 0 1% 0;
+  font-size: small;
+  font-weight: bold;
+}
+
+.authenticity {
+  background-color: rgb(202, 230, 136);
+  text-align: center;
+}
+
+.heading_footer {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 8%;
+}
+
+.social_icon {
+  padding: 2%;
+}
+
+@media (max-width: 1200px) {
+  .platter {
+    transform: rotate(0deg);
+    width: 100%;
+    left: 10%;
+    position: static;
+  }
+
+  .page_title {
+    font-family: "Montserrat", sans-serif;
+    font-size: auto;
+    font-weight: bold;
+    line-height: 1.2;
+    padding-bottom: 5rem;
+  }
+
+  #title {
+    background-color: rgb(202, 230, 136);
+    padding-bottom: 5%;
+  }
+
+  .footer_icon {
+    width: 80%;
+  }
+}
+
+@media (max-width: 850px) {
+  .platter {
+    transform: rotate(0deg);
+    width: 80%;
+    padding-left: 10%;
+    position: static;
+  }
+}
+
+@media (max-width: 830px) {
+  .platter {
+    transform: rotate(0deg);
+    width: 80%;
+    padding-left: 10%;
+    position: static;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .footer_icon {
+    width: 150%;
+  }
+}
